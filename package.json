@@ -1,6 +1,6 @@
 {
   "name": "coder-vue-component-middleware",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Using middlewares inside components",
   "main": "dist/index.js",
   "repository": {
