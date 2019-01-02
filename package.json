@@ -1,0 +1,26 @@
+{
+  "name": "coder-vue-component-middleware",
+  "version": "1.0.4",
+  "description": "Using middlewares inside components",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:coder-packages/npm-vue-component-middleware.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist",
+    "build-prod": "BABEL_ENV=production npm run build"
+  },
+  "keywords": [
+    "middleware"
+  ],
+  "author": "Alexander Manukian <alikmanukian@gmail.com>",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.4",
+    "@babel/cli": "^7.2.3",
+    "babel-minify": "^0.5.0"
+  }
+}
